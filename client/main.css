@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+h1{
+    font-size: 2rem;
+    margin: 0rem;
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+body{
+    margin: 0;
+}
+p{
+    font-size: 1.2rem;
+    color: #204969;
+}
+.logo{
+    margin: 0 auto 0 ;
+    width: 20%;
+}
+
+#joke-div{
+    border: 1px solid #dadada;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+#joke{
+    font-size: 1.5rem;
+}
+small{
+    color: #69779b;
+}
+
+.button{
+    background-color: #204969;
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin: 1rem;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    transition-duration: 0.4s;
+}
+footer{
+    margin: 1rem;
+}
+
+
+@media  screen and (min-width: 760px){
+    main{
+        width: 55%;
+    }
+    p{
+        font-size: 2rem;
+    }
+    .logo{
+        width: 10%;
+    }
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./main.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <title>Random Joke Generator with Push Notificaions</title>
+</head>
+<body>
+    <header>
+        <p></p>
+    </header>
+    <main>
+        <div>
+            <h1>
+                <div class="logo"><img src="./iconfinder__lol_laugh_smiley_4830807.svg"/></div>
+            </h1>
+            <small>Subscribe to Push Notifications to get daily Jokes<br>
+            (Jokes Gotten from Jokes API)</small>
+        </div>
+        <button disabled class="js-push-btn button"> Enable Notificaions</button>
+        <div id="joke-div">
+            <p id="joke" class="loader">Loading...</p>
+            <i><small>Click Generate to see new Jokes</small></i>
+        </div>
+        <button id="generate" class="button"><i class="fas fa-random"></i> Generate</button>
+    </main>
+    <footer>
+        <div>
+            <small>Progressive Web App that sends push Notifications<br>
+                This website was created by  <a href="https://twitter.com/GodwinAgedah">@GodwinAgedah</a><br>
+                &copy;2019 All rights Reserved
+            </small>
+        </div>
+    </footer>
+    <script defer src="./main.js"></script>
+</body>
+</html>
